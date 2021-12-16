@@ -9,6 +9,7 @@
   --base-color: #fdfdfd;
   --green-color: #00bf71;
   --light-green-color: #f2fbf8;
+  --red-color: #ca4220;
   --white-color: #ffffff;
   --black-color: #3c3c3c;
   --light-black-color: #ebe8e8;
@@ -162,9 +163,14 @@ html {
 }
 
 .button__nav {
+  color: var(--white-color) !important;
   border-color: var(--green-color) !important;
   background-color: var(--green-color) !important;
-  color: var(--white-color) !important;
+}
+
+.button__merah {
+  border-color: var(--red-color) !important;
+  background-color: var(--red-color) !important;
 }
 
 .nav__close,
@@ -650,6 +656,28 @@ html {
 .footer__text {
   color: rgb(168, 166, 166);
   font-size: 15px;
+}
+
+/*===  LOGIN SECTION  ===*/
+.login__box-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px !important;
+  padding: 50px 50px 60px 50px;
+  background-color: var(--light-green-color) !important;
+  border: 0.11px solid var(--light-black-color);
+}
+
+.gambar__login {
+  width: 450px;
+}
+
+.login__masukkan-nomor {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black-color);
 }
 
 @media (min-width: 1200px) {

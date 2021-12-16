@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../assets/favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="152x152"
+      href="../../assets/favicon/bibit-152px.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="120x120"
+      href="../../assets/favicon/bibit-120px.png"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>Bibit - Robo Advisor Investasi Reksadana</title>
+    <meta name="title" content="Bibit - Robo Advisor Investasi Reksadana" />
+    <meta
+      name="description"
+      content="Bibit clone dibuat oleh Zidan Indratama untuk keperluan Ulangan Akhir Semester"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://bibit-clone-zidan-indratama.netlify.app/"
+    />
+    <meta
+      property="og:title"
+      content="Bibit - Robo Advisor Investasi Reksadana"
+    />
+    <meta
+      property="og:description"
+      content="Bibit clone dibuat oleh Zidan Indratama untuk keperluan Ulangan Akhir Semester"
+    />
+    <meta
+      property="og:image"
+      content="../../assets/images/gambar_buat_meta.JPG"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://bibit-clone-zidan-indratama.netlify.app/"
+    />
+    <meta
+      property="twitter:title"
+      content="Bibit - Robo Advisor Investasi Reksadana"
+    />
+    <meta
+      property="twitter:description"
+      content="Bibit clone dibuat oleh Zidan Indratama untuk keperluan Ulangan Akhir Semester"
+    />
+    <meta
+      property="twitter:image"
+      content="../../assets/images/gambar_buat_meta.JPG"
+    />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ===== FONT AWESOME ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
+    <!-- ===== AOS ===== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/owl-carousel/owl.theme.default.min.css"
+    />
+  </head>
+
+  <body>
+    <!--===== LOGIN =====-->
+    <section class="login__section">
+      <div class="container">
+        <div class="login__box-content">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img
+                src="../images/new-login.b5db529e.svg"
+                alt=""
+                class="img-fluid gambar__login"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2 class="login__masukkan-nomor">Masukkan Nomor HP Kamu</h2>
+              <form>
+                <div class="form-group">
+                  <label for="nomor_hp">Masukkan Nomor HP : </label>
+                  <input
+                    type="text"
+                    name="nomor_hp"
+                    id="nomor_hp"
+                    class="form-control form__login"
+                    placeholder="contoh: 081235678910"
+                    aria-describedby="helpId"
+                  />
+                  <small id="helpId" class="text-muted"
+                    >Kami akan mengirimkan kode otentifikasi ke nomor anda lewat
+                    SMS</small
+                  >
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <button
+                      type="submit"
+                      class="
+                        nav__link
+                        btn btn-lg
+                        button__nav
+                        btn-two
+                        w-100
+                        mt-4
+                      "
+                    >
+                      Submit
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <a
+                      href="../../index.html"
+                      class="
+                        nav__link
+                        btn btn-lg
+                        button__nav button__merah
+                        btn-two
+                        w-100
+                        mt-4
+                      "
+                    >
+                      Kembali
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TABLE -->
+    <section class="reksadana__section" id="reksadana__section"></section>
+    <!--===== GSAP =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="../../assets/javascript/script.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/604809631c1c2a130d66ce20/1flqhvh3l";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <script src="../../assets/owl-carousel/owl.carousel.min.js"></script>
+    <script src="../../assets/javascript/owl-carousel.js"></script>
+    <script src="../../assets/javascript/finance-api.js"></script>
+  </body>
+</html>
